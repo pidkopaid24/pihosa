@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f9fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* O nás */
+.about {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.about h1 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+    color: #023e8a;
+}
+
+.about-content p {
+    margin-bottom: 15px;
+}
+
+/* Recenze */
+.reviews {
+    padding: 60px 0;
+    background-color: #e8f7ff;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #023e8a;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.review {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.review p {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.review h4 {
+    color: #0077b6;
+}
+
+/* Footer */
+footer {
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
