@@ -1,94 +1,249 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f9fb;
-    color: #333;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f4f9fb;
+  color: #333;
+  line-height: 1.6;
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* O nás */
 .about {
-    padding: 60px 0;
-    background-color: white;
+  padding: 60px 0;
+  background-color: white;
 }
 
 .about h1 {
-    text-align: center;
-    color: #0077b6;
-    margin-bottom: 30px;
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 30px;
 }
 
 .about-content {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
 }
 
 .about-content h2 {
-    margin-bottom: 20px;
-    color: #023e8a;
+  margin-bottom: 20px;
+  color: #023e8a;
 }
 
 .about-content p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* Recenze */
 .reviews {
-    padding: 60px 0;
-    background-color: #e8f7ff;
+  padding: 60px 0;
+  background-color: #e8f7ff;
 }
 
 .reviews h2 {
-    text-align: center;
-    margin-bottom: 40px;
-    color: #023e8a;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #023e8a;
 }
 
 .review-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .review {
-    background: white;
-    padding: 20px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    text-align: center;
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .review p {
-    margin-bottom: 15px;
-    font-style: italic;
+  margin-bottom: 15px;
+  font-style: italic;
 }
 
 .review h4 {
-    color: #0077b6;
+  color: #0077b6;
 }
 
 /* Footer */
 footer {
-    background-color: #023e8a;
-    color: white;
-    text-align: center;
-    padding: 20px;
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 footer p {
-    margin: 5px 0;
+  margin: 5px 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f7ff;
+  color: #333;
+}
+
+.contacts {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.contacts h1 {
+  text-align: center;
+  color: #006994;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-box {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h3 {
+  color: #006994;
+  margin-bottom: 10px;
+}
+
+.form-section {
+  max-width: 700px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #006994;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+button {
+  background-color: #006994;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00557a;
+}
+
+footer {
+  background-color: #003b52;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.map-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.map-section h2 {
+  margin-bottom: 60px;
+  color: #006994;
+}
+
+.map-section iframe {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.socials {
+  margin: 15px 0;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+.faq {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+  color: #006994;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq h3 {
+  margin-top: 15px;
+  color: #333;
+}
+
+.faq p {
+  margin-top: 5px;
+  line-height: 1.5;
 }
